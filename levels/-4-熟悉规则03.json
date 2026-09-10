@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "id": "-4",
+    "name": "熟悉规则03"
+  },
+  "inventory": {
+    "forward": 64,
+    "left": 1,
+    "right": 1,
+    "track": 0,
+    "observer": 0,
+    "clone": 0,
+    "clonePoint": 0
+  },
+  "instruction": {
+    "tiles": {
+      "0,0": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "1,0": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "2,0": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "9,0": {
+        "type": "left",
+        "direction": 1,
+        "preset": true
+      },
+      "12,0": {
+        "type": "right",
+        "direction": 1,
+        "preset": true
+      }
+    }
+  },
+  "execution": {
+    "tiles": {
+      "7,0": {
+        "type": "finish",
+        "direction": 1,
+        "preset": false
+      },
+      "3,0": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "4,0": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      }
+    },
+    "robot": {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": 1
+    }
+  }
+}

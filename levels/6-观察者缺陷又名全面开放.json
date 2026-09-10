@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "id": "6",
+    "name": "观察者缺陷又名全面开放"
+  },
+  "inventory": {
+    "forward": 3,
+    "left": 2,
+    "right": 2,
+    "track": 15,
+    "observer": 2,
+    "clone": 0,
+    "clonePoint": 0
+  },
+  "instruction": {
+    "tiles": {}
+  },
+  "execution": {
+    "tiles": {
+      "6,1": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "6,2": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "6,3": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "6,4": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "4,5": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "3,5": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "2,5": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "1,5": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "0,5": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "0,0": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "0,1": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "0,2": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "0,3": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "0,4": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "1,0": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "2,0": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "3,0": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "4,0": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "2,1": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "2,2": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "1,3": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,2": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,1": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,4": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "2,4": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "3,4": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "4,4": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "5,4": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "5,3": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "5,2": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "5,1": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "5,0": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "7,0": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "7,1": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "7,3": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "7,2": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "7,4": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "7,5": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "7,6": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "6,6": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "5,6": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "4,6": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "3,6": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,6": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "2,6": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "0,6": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "2,3": {
+        "type": "finish",
+        "direction": 1,
+        "preset": false
+      }
+    },
+    "robot": {
+      "position": {
+        "x": 6,
+        "y": 0
+      },
+      "direction": 2
+    }
+  }
+}

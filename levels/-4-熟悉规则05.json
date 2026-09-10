@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "id": "-4",
+    "name": "熟悉规则05"
+  },
+  "inventory": {
+    "forward": 1,
+    "left": 0,
+    "right": 0,
+    "track": 0,
+    "observer": 0,
+    "clone": 3,
+    "clonePoint": 1
+  },
+  "instruction": {
+    "tiles": {
+      "1,0": {
+        "type": "track",
+        "direction": 2,
+        "preset": true
+      },
+      "1,1": {
+        "type": "track",
+        "direction": 3,
+        "preset": true
+      },
+      "0,1": {
+        "type": "track",
+        "direction": 0,
+        "preset": true
+      },
+      "7,6": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "8,6": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "9,6": {
+        "type": "right",
+        "direction": 1,
+        "preset": true
+      },
+      "10,6": {
+        "type": "track",
+        "direction": 2,
+        "preset": true
+      },
+      "6,7": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "6,8": {
+        "type": "left",
+        "direction": 1,
+        "preset": true
+      },
+      "6,9": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "6,10": {
+        "type": "track",
+        "direction": 3,
+        "preset": true
+      },
+      "5,6": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "4,6": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "3,6": {
+        "type": "left",
+        "direction": 1,
+        "preset": true
+      },
+      "6,5": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "6,4": {
+        "type": "right",
+        "direction": 1,
+        "preset": true
+      },
+      "6,3": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "2,6": {
+        "type": "track",
+        "direction": 0,
+        "preset": true
+      },
+      "6,2": {
+        "type": "track",
+        "direction": 1,
+        "preset": true
+      }
+    }
+  },
+  "execution": {
+    "tiles": {
+      "7,0": {
+        "type": "finish",
+        "direction": 1,
+        "preset": false
+      },
+      "3,0": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "4,0": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      }
+    },
+    "robot": {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": 1
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "id": "-4",
+    "name": "熟悉规则06-新概念特供"
+  },
+  "inventory": {
+    "forward": 1,
+    "left": 0,
+    "right": 0,
+    "track": 3,
+    "observer": 0,
+    "clone": 3,
+    "clonePoint": 1
+  },
+  "instruction": {
+    "tiles": {
+      "6,7": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "6,8": {
+        "type": "left",
+        "direction": 1,
+        "preset": true
+      },
+      "6,9": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "5,7": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "5,8": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "5,9": {
+        "type": "left",
+        "direction": 1,
+        "preset": true
+      },
+      "7,7": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "7,8": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "7,9": {
+        "type": "right",
+        "direction": 1,
+        "preset": true
+      },
+      "1,0": {
+        "type": "barrier",
+        "direction": 1,
+        "preset": false
+      },
+      "1,1": {
+        "type": "barrier",
+        "direction": 1,
+        "preset": false
+      },
+      "0,1": {
+        "type": "barrier",
+        "direction": 1,
+        "preset": false
+      },
+      "6,10": {
+        "type": "track",
+        "direction": 3,
+        "preset": true
+      }
+    }
+  },
+  "execution": {
+    "tiles": {
+      "7,0": {
+        "type": "finish",
+        "direction": 1,
+        "preset": false
+      },
+      "3,0": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "4,0": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      }
+    },
+    "robot": {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": 1
+    }
+  }
+}

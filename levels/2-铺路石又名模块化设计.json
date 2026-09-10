@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "id": "2",
+    "name": "铺路石又名模块化设计"
+  },
+  "inventory": {
+    "forward": 1,
+    "left": 2,
+    "right": 2,
+    "track": 12,
+    "observer": 2,
+    "clone": 10,
+    "clonePoint": 1
+  },
+  "instruction": {
+    "tiles": {}
+  },
+  "execution": {
+    "tiles": {
+      "0,6": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "2,6": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,5": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,4": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,3": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,2": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,1": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "2,1": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "3,1": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "4,1": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "0,0": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "5,0": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "5,1": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "6,1": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "7,0": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "7,1": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "7,2": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "2,2": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "3,2": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "3,3": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "2,5": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "7,4": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "7,5": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "7,6": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "6,4": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "5,4": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "5,5": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "8,3": {
+        "type": "finish",
+        "direction": 1,
+        "preset": false
+      },
+      "9,0": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "9,1": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "9,3": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "9,2": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "9,4": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "9,5": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "9,6": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "9,7": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "8,7": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "7,7": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "6,7": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "4,7": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "0,7": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,7": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "2,7": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "3,7": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "5,7": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      }
+    },
+    "robot": {
+      "position": {
+        "x": 1,
+        "y": 6
+      },
+      "direction": 3
+    }
+  }
+}

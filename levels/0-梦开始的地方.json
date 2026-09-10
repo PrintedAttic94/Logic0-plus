@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "id": "0",
+    "name": "梦开始的地方"
+  },
+  "inventory": {
+    "forward": 1,
+    "left": 1,
+    "right": 1,
+    "track": 5,
+    "observer": 1,
+    "clone": 0,
+    "clonePoint": 0
+  },
+  "instruction": {
+    "tiles": {}
+  },
+  "execution": {
+    "tiles": {
+      "1,14": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "0,13": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "3,12": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "4,12": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "4,13": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "3,13": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "3,14": {
+        "type": "finish",
+        "direction": 1,
+        "preset": false
+      },
+      "0,11": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,11": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "2,11": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "3,11": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "4,11": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "5,11": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "5,13": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "5,12": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "5,14": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      }
+    },
+    "robot": {
+      "position": {
+        "x": 0,
+        "y": 14
+      },
+      "direction": 0
+    }
+  }
+}

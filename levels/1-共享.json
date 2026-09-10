@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "id": "1",
+    "name": "共享"
+  },
+  "inventory": {
+    "forward": 1,
+    "left": 1,
+    "right": 1,
+    "track": 10,
+    "observer": 2,
+    "clone": 0,
+    "clonePoint": 0
+  },
+  "instruction": {
+    "tiles": {}
+  },
+  "execution": {
+    "tiles": {
+      "1,14": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "0,13": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "1,13": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "1,12": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "2,12": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "2,13": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "0,12": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "0,11": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,11": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "3,11": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "4,11": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "5,11": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "5,12": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "4,14": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "2,14": {
+        "type": "finish",
+        "direction": 1,
+        "preset": false
+      },
+      "0,10": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,10": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "2,10": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "3,10": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "4,10": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "5,10": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "6,10": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "6,11": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "6,12": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "6,13": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "6,14": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      }
+    },
+    "robot": {
+      "position": {
+        "x": 0,
+        "y": 14
+      },
+      "direction": 1
+    }
+  }
+}

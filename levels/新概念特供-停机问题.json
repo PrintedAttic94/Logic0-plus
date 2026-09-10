@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "id": "新概念特供",
+    "name": "停机问题",
+    "winCondition": "eliminateInstructionRobots"
+  },
+  "inventory": {
+    "forward": 5,
+    "left": 5,
+    "right": 5,
+    "track": 15,
+    "observer": 5,
+    "clone": 5,
+    "clonePoint": 1
+  },
+  "instruction": {
+    "tiles": {
+      "0,0": {
+        "type": "clone",
+        "direction": 1,
+        "preset": true
+      },
+      "7,7": {
+        "type": "clonePoint",
+        "direction": 1,
+        "preset": true
+      },
+      "8,8": {
+        "type": "clone",
+        "direction": 1,
+        "preset": true
+      },
+      "6,8": {
+        "type": "clone",
+        "direction": 1,
+        "preset": true
+      },
+      "6,6": {
+        "type": "clone",
+        "direction": 1,
+        "preset": true
+      },
+      "8,6": {
+        "type": "clone",
+        "direction": 1,
+        "preset": true
+      },
+      "10,7": {
+        "type": "observer",
+        "direction": 3,
+        "preset": true
+      },
+      "7,10": {
+        "type": "observer",
+        "direction": 0,
+        "preset": true
+      },
+      "4,7": {
+        "type": "observer",
+        "direction": 1,
+        "preset": true
+      },
+      "7,4": {
+        "type": "observer",
+        "direction": 2,
+        "preset": true
+      },
+      "8,10": {
+        "type": "track",
+        "direction": 0,
+        "preset": true
+      },
+      "6,10": {
+        "type": "track",
+        "direction": 0,
+        "preset": true
+      },
+      "4,8": {
+        "type": "track",
+        "direction": 1,
+        "preset": true
+      },
+      "4,6": {
+        "type": "track",
+        "direction": 1,
+        "preset": true
+      },
+      "6,4": {
+        "type": "track",
+        "direction": 2,
+        "preset": true
+      },
+      "8,4": {
+        "type": "track",
+        "direction": 2,
+        "preset": true
+      },
+      "10,6": {
+        "type": "track",
+        "direction": 3,
+        "preset": true
+      },
+      "10,8": {
+        "type": "track",
+        "direction": 3,
+        "preset": true
+      },
+      "7,8": {
+        "type": "track",
+        "direction": 2,
+        "preset": true
+      },
+      "6,7": {
+        "type": "track",
+        "direction": 3,
+        "preset": true
+      },
+      "7,6": {
+        "type": "track",
+        "direction": 0,
+        "preset": true
+      },
+      "8,7": {
+        "type": "track",
+        "direction": 1,
+        "preset": true
+      },
+      "7,9": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "5,7": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "9,7": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "7,5": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "6,5": {
+        "type": "left",
+        "direction": 1,
+        "preset": true
+      },
+      "5,6": {
+        "type": "left",
+        "direction": 1,
+        "preset": true
+      },
+      "9,8": {
+        "type": "left",
+        "direction": 1,
+        "preset": true
+      },
+      "8,9": {
+        "type": "left",
+        "direction": 1,
+        "preset": true
+      },
+      "8,5": {
+        "type": "right",
+        "direction": 1,
+        "preset": true
+      },
+      "9,6": {
+        "type": "right",
+        "direction": 1,
+        "preset": true
+      },
+      "5,8": {
+        "type": "right",
+        "direction": 1,
+        "preset": true
+      },
+      "6,9": {
+        "type": "right",
+        "direction": 1,
+        "preset": true
+      }
+    }
+  },
+  "execution": {
+    "tiles": {},
+    "robot": {
+      "position": {
+        "x": 7,
+        "y": 7
+      },
+      "direction": 0
+    }
+  }
+}

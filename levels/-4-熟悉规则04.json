@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "id": "-4",
+    "name": "熟悉规则04"
+  },
+  "inventory": {
+    "forward": 0,
+    "left": 0,
+    "right": 0,
+    "track": 0,
+    "observer": 5,
+    "clone": 0,
+    "clonePoint": 0
+  },
+  "instruction": {
+    "tiles": {
+      "0,0": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "1,0": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "2,1": {
+        "type": "right",
+        "direction": 1,
+        "preset": true
+      },
+      "2,3": {
+        "type": "left",
+        "direction": 1,
+        "preset": true
+      },
+      "2,2": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "3,4": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "5,4": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "6,4": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "7,3": {
+        "type": "left",
+        "direction": 1,
+        "preset": true
+      },
+      "7,1": {
+        "type": "right",
+        "direction": 1,
+        "preset": true
+      },
+      "7,2": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "8,0": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "10,0": {
+        "type": "forward",
+        "direction": 1,
+        "preset": true
+      },
+      "2,0": {
+        "type": "observer",
+        "direction": 3,
+        "preset": true
+      }
+    }
+  },
+  "execution": {
+    "tiles": {
+      "7,0": {
+        "type": "finish",
+        "direction": 1,
+        "preset": false
+      },
+      "3,0": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "4,0": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "2,0": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "2,1": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "5,1": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      },
+      "5,0": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "6,0": {
+        "type": "red",
+        "direction": 1,
+        "preset": false
+      }
+    },
+    "robot": {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": 1
+    }
+  }
+}

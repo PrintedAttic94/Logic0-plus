@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "id": "-2",
+    "name": "规则训练"
+  },
+  "inventory": {
+    "forward": 16,
+    "left": 1,
+    "right": 1,
+    "track": 0,
+    "observer": 1,
+    "clone": 0,
+    "clonePoint": 0
+  },
+  "instruction": {
+    "tiles": {
+      "0,1": {
+        "type": "barrier",
+        "direction": 1,
+        "preset": false
+      },
+      "1,1": {
+        "type": "barrier",
+        "direction": 1,
+        "preset": false
+      },
+      "2,1": {
+        "type": "barrier",
+        "direction": 1,
+        "preset": false
+      },
+      "3,1": {
+        "type": "barrier",
+        "direction": 1,
+        "preset": false
+      },
+      "4,1": {
+        "type": "barrier",
+        "direction": 1,
+        "preset": false
+      },
+      "4,0": {
+        "type": "barrier",
+        "direction": 1,
+        "preset": false
+      }
+    }
+  },
+  "execution": {
+    "tiles": {
+      "0,12": {
+        "type": "blue",
+        "direction": 1,
+        "preset": false
+      },
+      "0,14": {
+        "type": "finish",
+        "direction": 1,
+        "preset": false
+      },
+      "0,11": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,11": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,13": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,12": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "1,14": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      }
+    },
+    "robot": {
+      "position": {
+        "x": 0,
+        "y": 13
+      },
+      "direction": 0
+    }
+  }
+}
