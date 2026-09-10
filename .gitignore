@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Local game progress and completion history
+saves/
+cleared/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Local design/development notes
+游戏核心规则与 Codex 开发规格 v0.2.md
+
+# OS/editor files
+.DS_Store
