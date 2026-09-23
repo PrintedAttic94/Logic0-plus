@@ -251,6 +251,16 @@
         "type": "finish",
         "direction": 1,
         "preset": false
+      },
+      "4,3": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
+      },
+      "3,2": {
+        "type": "wall",
+        "direction": 1,
+        "preset": false
       }
     },
     "robot": {

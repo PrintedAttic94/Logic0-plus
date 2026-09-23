@@ -5,13 +5,13 @@
     "winCondition": "eliminateInstructionRobots"
   },
   "inventory": {
-    "forward": 5,
-    "left": 5,
-    "right": 5,
-    "track": 15,
-    "observer": 5,
-    "clone": 5,
-    "clonePoint": 1
+    "forward": 0,
+    "left": 0,
+    "right": 0,
+    "track": 0,
+    "observer": 0,
+    "clone": 0,
+    "clonePoint": 0
   },
   "instruction": {
     "tiles": {
