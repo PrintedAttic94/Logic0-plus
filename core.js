@@ -113,7 +113,7 @@ export class Simulation {
     // Waiting robots remain on their own clone tile. A collision can only occur
     // when the active robot subsequently enters that same clone tile.
     const collision = this.waiting.findIndex((robot) => key(robot.position) === key(this.active.position));
-    if (collision !== -1) { this.waiting.splice(collision, 1); this.visual('collision', this.active.position); this.emit('克隆地板发生碰撞：两个指令机器人坠毁。'); this.destroyActive(); return; }
+    if (collision !== -1) { this.waiting.splice(collision, 1); this.visual('collision', this.active.position); this.emit('克隆地板上发生碰撞：两个指令机器人坠毁。'); this.destroyActive(); return; }
     this.waiting.push({ ...this.active, position: cell(this.active.position.x, this.active.position.y) });
     this.active = { position: cell(x, y), direction: this.active.direction, id: this.steps };
     this.emit('克隆完成：原机器人等待，新机器人继续移动。');
